@@ -1,25 +1,27 @@
-# CakePHP 3
+.DS_Store
 
-/vendor/*
-/config/app.php
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
 
-/logs/*
-!/logs/empty
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
 
-# CakePHP 2
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
